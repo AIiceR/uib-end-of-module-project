@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container,
+.formcontainer {
+
+    border: 1px solid black;
+    width: 40vw;
+    height: 70vh;
+    margin: 5vw;
+    padding: 2em;
+}
+
+.formcontainer {
+    padding: 3em;
+    font-family: "Playfair Display", serif;
+}
+
+input {
+    width: 200px;
+    padding: 0.25em; 
+    margin: 0.5em; 
+}
+
+label {
+    margin-left: 0.25em;
+
+}
+
+textarea {
+    height: 350px;
+    width: 600px; 
+    margin: 0.5em;
+}

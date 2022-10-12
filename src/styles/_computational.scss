@@ -1,0 +1,47 @@
+.computational {
+
+    .container {
+      display: flex;
+      flex-direction: row; 
+      margin: 0.25em; 
+    }
+    
+    .container div {
+      border: 1px solid black;
+    }
+    
+    .text,
+    .imagecontainer {
+      height: 90vh;
+      width: 45vw;
+      border: 1px solid black;
+    }
+    
+    .text p {
+     height: 20vh;
+     width: 30vw;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+
+    }
+  
+    
+    .imagecontainer {
+      margin-top: 100px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center; 
+
+
+    }
+
+    img {
+      width: 300px; 
+      height: 500px; 
+      padding: 1em; 
+      margin: 1em; 
+    }
+
+  }
