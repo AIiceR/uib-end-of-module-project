@@ -14,35 +14,68 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap");
 
-
+body {
+  font-family: "Playfair Display", serif;
+}
 
 /* container  */
 
 .container {
   display: grid;
-  grid-template-columns: 300px (6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  height: 71vh;
+  grid-template-columns: 200px, 100px, 100px, 100px, 100px, 100px 100px, 80px;
+  grid-template-rows: 50px, 50px, 50px, 50px, 50px;
 }
 
-h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 2.75em;
-  display: grid;
-  place-items: center;
-  width: 30vw;
-  margin: 0.25em;
-  padding: 0.15em; }
+footer {
+  background-color: hsl(219, 14%, 71%);
+  height: 17vh;
 
-p {
-  font-family: "Playfair Display", serif;
+
+
+  ul {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .icon-list {
+    height: 7.5vh;
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    border: 1px solid grey;
+  }
+
+  .icon {
+
+    margin: 0.25em 0.5em 0.2em 0.5em;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+    color: hsl(0, 1%, 32%);
+
+
+
+  }
+
+  // footer {
+  //   background-color: rgba(128, 128, 128, 0.32);
+  //   height: 15rem;
+  //   text-align: center;
+  //   padding-top: 1rem;
+  // }
+
+  // .icon-list {
+  //   display: flex;
+  //   justify-content: center;
+  // }
+
+  // .icon {
+  //   margin: 0 0.5rem 0 0.5rem;
+  //   font-size: 1.8rem;
+  // }
 }
-
-
-
-
-
-
-
-
-  
-

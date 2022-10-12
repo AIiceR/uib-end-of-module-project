@@ -1,28 +1,36 @@
 header {
     font-family: "Playfair Display", serif;
-    height: 5vh;
+    height: 15vh;
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    background-color: rgb(220, 231, 235);
   }
   
   header ul {
+    width: 40vw; 
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0.25em;
-    margin-right: 4em;
+    padding: 1em;
+    position: absolute;
+    right: 10em; 
+    top: 3em; 
+    
+    
   }
   
   header li {
     padding: 0.5em;
+    
   }
   
   header a {
     text-decoration: none;
     color: black;
-    padding: 0.1em;
+    padding: 0.5em;
   }
   
   header a:visited {

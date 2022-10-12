@@ -8,20 +8,33 @@ main {
 .container,
 .formcontainer {
 
-    border: 1px solid black;
+    
     width: 40vw;
     height: 70vh;
-    margin: 5vw;
     padding: 2em;
+    margin-right: 2em; 
+}
+
+.container p {
+    padding: 0.5em; 
+    line-height: 25px;
 }
 
 .formcontainer {
-    padding: 3em;
+    padding: 4em;
     font-family: "Playfair Display", serif;
-}
+
+    form {
+        margin-bottom: 1em; 
+    }
+
+    input, textarea {
+        box-shadow: 1px 1px 3px grey;
+    }
+
 
 input {
-    width: 200px;
+    width: 600px;
     padding: 0.25em; 
     margin: 0.5em; 
 }
@@ -35,4 +48,13 @@ textarea {
     height: 350px;
     width: 600px; 
     margin: 0.5em;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+
+    main {
+        display: block; 
+    }
 }

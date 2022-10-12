@@ -15,11 +15,11 @@
     border: 1px solid black;
   }
   
-  .text .content p {
+  .text p {
    height: 20vh;
    width: 30vw;
    display: flex;
-   align-items: center;
+   align-items: flex-end;
    justify-content: center;
 
   }
