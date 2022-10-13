@@ -1,44 +1,41 @@
 header {
-    font-family: "Playfair Display", serif;
-    height: 15vh;
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    background-color: rgb(220, 231, 235);
-  }
-  
-  header ul {
-    width: 40vw; 
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1em;
-    position: absolute;
-    right: 10em; 
-    top: 3em; 
-    
-    
-  }
-  
-  header li {
-    padding: 0.5em;
-    
-  }
-  
-  header a {
-    text-decoration: none;
-    color: black;
-    padding: 0.5em;
-  }
-  
-  header a:visited {
-    color: grey;
-  }
-  
-  header a:hover {
-      color: white;
-      background-color: grey; 
-  }
-  
+  font-family: "Playfair Display", serif;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #F0F2F0;
+  box-shadow: $box-shadow;
+}
+
+header ul {
+  width: 50vw;
+  height: 10vh;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em;
+  margin-left: 10em;
+  // margin-top: 3em;
+}
+
+header li {
+  padding: 0.75em;
+  font-size: 1.2em;
+}
+
+header a {
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+  padding: 0.5em;
+}
+
+header a:visited {
+  color: $headercolor;
+}
+
+header a:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: $headercolor; 
+}
