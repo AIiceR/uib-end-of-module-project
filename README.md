@@ -1,12 +1,12 @@
 ## uib-end-of-module-project ##
 
-In this project I will design and build a simple portfolio website for architect Abdelmonem Ibrahim. I am keeping the design very simple so that I can focus on keepong the layout and code clean and adding simple features to the website. 
+In this project I will design and build a simple portfolio website for architect Abdelmonem Ibrahim. I am keeping the design very simple so that I can focus on keeping the layout and code clean and adding simple features to the website. 
 
 *Preparation*
 
 I have been working on a website for Abdelmonem Ibrahim since the beginning of the course, but to begin with in order to achieve his design ideas I was following tutorials from Youtube without understanding what the code did yet. For the project I wanted to do something very simple so that I could focus on the images, but my previous work meant that I had an idea of the site's structure in my head. 
 
-I tried to draw out a basic template for the website in Figma but i definitely need to practise with the site a bit more- I don't find its UI very intuitive and was worried that it would take me a long time to get anything done and that this would frontload my project with frustration, so I let Figma go, knowing that the design I had in my head was quite simple. I will definitely spend some time getting to grips with it soon though, as not having a mockup to work from means that I spend a lot of time fiddling about with proportions in code. 
+I tried to draw out a basic template for the website in Figma but I definitely need to practise with the site a bit more- I don't find its UI very intuitive and was worried that it would take me a long time to get anything done and that this would frontload my project with frustration, so I let Figma go, knowing that the design I had in my head was quite simple. I will definitely spend some time getting to grips with it soon though, as not having a mockup to work from means that I spend a lot of time fiddling about with proportions in code. 
 
 
 *Coding Process*
